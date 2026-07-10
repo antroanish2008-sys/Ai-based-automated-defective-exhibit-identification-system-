@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExhibitGuard - Detect</title>
+  " />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">ExhibitGuard</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="detect.html">Detect</a>
+      <a href="reports.html">Reports</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h2>Defect Detection Demo</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Upload Exhibit Image</h3>
+        <input id="imgInput" type="file" accept="image/*" />
+        <img id="preview" class="preview" alt="Preview" />
+        <button class="btn" onclick="analyzeImage()">Analyze Image</button>
+      </div>
+      <div class="card">
+        <h3>Result</h3>
+        <p id="resultText">No image analyzed yet.</p>
+        <ul id="findingList"></ul>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
