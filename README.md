@@ -19,3 +19,6 @@ This prototype lets users upload an exhibit image, gives a simple defect analysi
 └── README.md
 
 A real research system would use a trained CNN or similar model with image preprocessing and defect localization, but for a beginner project this demo is enough to present the concept clearly
+
+
+https://exhibit-guard--antroanish2008.replit.app/
